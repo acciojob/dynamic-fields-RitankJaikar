@@ -12,7 +12,7 @@ const App = () => {
     const formData = ids.map((id) => {
       const name = document.getElementById(`name-${id}`).value;
       const age = document.getElementById(`age-${id}`).value;
-      return { id, name, age };
+      return { name, age };
     });
 
     console.log("Form Data:", formData);
