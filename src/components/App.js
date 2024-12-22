@@ -34,7 +34,7 @@ const App = () => {
               <Input key={id} id={id} remove={remove} />
             ))
           }
-          <button onClick={() => setIds(ids.concat(ids.length ? [ids[ids.length-1]+1] : [1]))}>Add More</button>
+          <button onClick={() => setIds(ids.concat(ids.length ? [ids[ids.length-1]+1] : [1]))}>Add More..</button>
           <button type="submit">Submit</button>
         </form>
     </div>
