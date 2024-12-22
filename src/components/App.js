@@ -15,7 +15,7 @@ const App = () => {
       return { name, age };
     });
 
-    console.log("Form Data:", formData);
+    console.log(formData);
   }
 
   function remove(id) {
